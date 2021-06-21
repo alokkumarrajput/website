@@ -1,0 +1,316 @@
+body{
+    /*  font-family: 'Lato', sans-serif;  */
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 16px;
+}
+*{
+    box-sizing: border-box;
+}
+
+.center{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.two{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.part1{
+    width: 40%;
+}
+.part2{
+    width: 60%;
+}
+.part2 img{
+    width: 100%;
+}
+.part1 h1{
+font-size: 1.3rem;
+color: blue;
+}
+#alok{
+    background-color: red;
+    margin-top: 30px;
+    
+}
+#ak{
+    width: 100%;
+    height: 120px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+input::placeholder{
+    color: blue;
+    font-weight: bolder;
+}
+.btn7{
+    margin-top: 10px;
+    width: 25%;
+    margin-left: 20px;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+/* ends */
+.small-width{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.ser h1{
+    color: black;
+}
+.eaight{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.one{
+    width: 22%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.one img{
+    width: 100%;
+}
+/* our services starts */
+.big-wraper{
+    width: 100%;
+   
+    background-color: rgb(8, 8, 71);
+    padding-top: 10PX;
+}
+.small-wraper{
+    width: 90%;
+    margin: 0 auto;
+}
+h1{
+    color: white;
+  font-weight: bolder;
+
+}
+b{
+    text-decoration: underline red;
+    
+}
+.three{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.three img{
+    width: 100%;
+}
+.box1{
+    width: 31%;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+.box2{
+    width: 31%;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.box3{
+    width: 31%;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    bottom: 74px;
+}
+button{
+    width: 40%;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 7px;
+    font-size: 1.2rem;
+}
+.box1 h2{
+    font-size: 1.3rem;
+}
+.box1 p{
+    font-size: 1.1rem;
+}
+.box2 h2{
+    font-size: 1.3rem;
+}
+.box2 p{
+    font-size: 1.1rem;
+}
+.box2 h2{
+    font-size: 1.3rem;
+}
+.box2 p{
+    font-size: 1.1rem;
+}
+button:hover{
+    background-color: white;
+    border: 1px solid;
+    color: black;
+   transform: rotate(3deg);
+}
+/* our services ends */
+
+.btn6{
+    width: 14%;
+    margin: 0 auto;
+    text-align: center;
+   position: relative;
+   left: 44%;
+   margin-bottom: 40px;
+}
+/* footer starts */
+.footer{
+    width: 100%;
+    padding-bottom: 120px;
+    margin-top: 80px;
+    background-color: rgb(8, 8, 71);
+}
+
+.footer1{
+    width: 90%;
+    margin: 0 auto;
+}
+.four{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.s2{
+    width: 23%;
+    margin-top: 70px;
+    font-size: 1.3rem;
+    color: white;
+    line-height: 26px;
+}
+.s1{
+    width: 23%;
+    margin-top: 120px;
+    font-size: 1.3rem;
+    color: white;
+    line-height: 26px;
+}
+.s1 h2{
+    font-weight: 100;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 55px;
+    font-size: 1.3rem;
+    color: white;
+    border: none;
+    outline: none;
+}
+.four a{
+    width: 30%;
+    background-color: white;
+    color: red;
+    padding: 10px;
+   position: relative;
+   top: 15%;
+   text-decoration: none;
+   border-radius: 50px;
+   font-weight: bolder;
+}
+span{
+    position: relative;
+    top: 60%;
+    right: 40%;
+    padding-left: 7px;
+    border: 2px solid;
+    padding: 4px;
+    border-radius: 50px;
+}
+/* footer ends */
+
+
+/* media query starts */
+@media only screen and (max-width:600px){
+    .box1{
+        width: 80%;
+        
+
+    }
+    .box2{
+        width: 80%;
+        margin-top: 100px;
+     
+        
+    }
+    .box3{
+        width: 80%;
+        margin-top: 100px;
+      
+    }
+    .s1{
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .s2{
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    span{
+        padding: 1px;
+        margin-top: 50px;
+    }
+    .four a{
+      position: relative;
+      
+      margin-top: 30px;
+    }
+    h1{
+        margin-left: 30px;
+    }
+    button{
+        width: 53%;
+    }
+    .one{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 30px;
+        
+    }
+    .one img{
+        border-radius: 16px;
+    }
+    .btn6{
+        width: 25%;
+        margin-top: 30px;
+    }
+    .part1{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .part2{
+        width: 100%;
+        margin-top: 50px;
+    }
+}
